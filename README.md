@@ -27,7 +27,7 @@
           - channel G: `(0.456, 0.224)`
           - channel B: `(0.406, 0.225)`
           
-## Model:
+## Model & Techniques:
 - Training (batch_size: `64`):
   - Model 1:
     -  A self-trained Convolutional Neural Network with `3` convolutional layer and `2` linear layer:
@@ -45,11 +45,9 @@
       -  Optimizer = `torch.Adam`
       -  Then two linear layers are followed to output a `1 * 9` vector where each entry is the probablity of the mushroom belongs to the corresponding genus.
       -  Output placeholder (graph/acc)
-      
-## Techniques:
-  - For both models: we randomly assign hyper-paramters within a resonable range and train the model with these hyper-parameters.
-  - We pick the best performed set of hyper-parameters.
-  - Using these hyper-paramters, training accuracy, and output graph, we fine tune parameters: `weight decay`, `learning rate`, `number of epoch`.
+- For both models: we randomly assign hyper-paramters within a resonable range and train the model with these hyper-parameters.
+- We pick the best performed set of hyper-parameters.
+- Using these hyper-paramters, training accuracy, and output graph, we fine tune parameters: `weight decay`, `learning rate`, `number of epoch`.
      
 ## Area of improvements:
   - As how to split the data into training and test dataset, a better approach could be randomly select 10% of images from each genus to form the test dataset while the rest being used by training dataset. This could ensure that each genus has enough data to train on.
