@@ -36,7 +36,7 @@
 ## Model & Techniques:
 - Training (batch_size: `64`):
   - Model 1:
-    -  A self-trained Convolutional Neural Network with `3` convolutional layer and `2` linear layer:
+    -  A self-trained Convolutional Neural Network with `3` convolutional layers and `2` linear layers:
       -  Activation function = `ReLU`
       -  Loss function = `Cross entropy loss`
       -  Optimizer = `Stochastic gradient descent`
