@@ -1,6 +1,6 @@
 # Mushroom Genus Classification
 
-<img src="./img/mushroom.jpg" width="800" height="600">
+<img src="./img/mushroom.jpg" width="800" height="600" margin-left="auto", margin-right="auto">
 
 ## Overview:
   
