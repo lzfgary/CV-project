@@ -30,7 +30,7 @@
           - channel G: `(0.456, 0.224)`
           - channel B: `(0.406, 0.225)`
   - Image examples:
-    - <img src="./img/mushroom_preview.jpg"/>
+    - <img src="./img/mushroom_preview.png"/>
           
 ## Model & Techniques:
 - Training (batch_size: `64`):
