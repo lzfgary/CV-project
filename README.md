@@ -56,7 +56,7 @@
 - Using these hyper-paramters, training accuracy, and output graph, we fine tune parameters: `weight decay`, `learning rate`, `number of epoch`.
 
 ## Results:
-- Accuracy and graphs of sum loss:
+- Accuracy and graphs of `sum_loss`:
   - Model 1:
     - <img src="./img/result_m1.png"  width="400" height="300"/>
   - Model 2:
