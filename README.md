@@ -8,6 +8,8 @@
   
   The purpose of this project is to classify mushrooms into their corresponding genus based on their images. With the dataset consists of images from nine commonly found genera of mushrooms, we trained two models that could distinguish mushrooms.
   
+### [Link to the presentation video][4]
+  
 ## Problem setup & Data used:
 - The data that are used to train the models is collected by [CatoDogo from Kaggle][1].
   - The dataset consists of `6714` images from `9` commonly found Mushroom genera in Northern Europe:
@@ -72,3 +74,4 @@
 [1]: https://www.kaggle.com/maysee/mushrooms-classification-common-genuss-images
 [2]: https://colab.research.google.com/drive/1H9yu2pfpyPB6GIHHlpmjbsEUteaT1RZp?usp=sharing
 [3]: https://colab.research.google.com/drive/1eaKfNG5ZAOZq_f1DofTRRC8s1yXa1MGr?usp=sharing
+[4]: https://drive.google.com/file/d/1lZoDUGxFAmtO7EuMXyh2mYJLBiuZrqdb/view?usp=sharing
