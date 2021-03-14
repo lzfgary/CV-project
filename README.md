@@ -36,7 +36,16 @@
       -  Optimizer = Stochastic gradient descent
       -  For each convolutional layer, the step is `Convolve -> BatchNorm -> ReLU -> MaxPool`
       -  Then two linear layers are followed to output a `1 * 9` vector where each entry is the probablity of the mushroom belongs to the corresponding genus.
-  
+      -  Output placeholder (graph/acc)
+   - Model 2:
+     -  A pre-trained model (Resent18) with two additional layers:
+      -  Fixed the pre-trained model's paramters
+      -  Activation function of the additional layers = ReLU
+      -  Loss function = Cross entropy loss
+      -  Optimizer = torch.Adam
+      -  Then two linear layers are followed to output a `1 * 9` vector where each entry is the probablity of the mushroom belongs to the corresponding genus.
+      -  Output placeholder (graph/acc)
+     
 ## Area of improvements:
 
 ## Link to the Colab Notebook:
