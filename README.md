@@ -1,6 +1,6 @@
 # Mushroom Genus Classification
 
-![Mushroom](./img/mushroom.jpg)
+![Mushroom](./img/mushroom.jpg=1000*800)
 
 ## Overview:
   
