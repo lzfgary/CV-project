@@ -13,7 +13,7 @@
     - `Agaricus`, `Amanita`, `Boletus`, `Cortinarius`, `Entoloma`, `Hygrocybe`, `Lactarius`, `Russula`, `Suillus`
   - The dataset is randomly splitted into `train_dataset` and `test_dataset`.
     - Model 1:
-      - `train_dataset`: 4000 images
+      - `train_dataset`: 5000 images
       - `test_dataset`: 2714 images
       - All images are:
         - normalized (μ, σ):
