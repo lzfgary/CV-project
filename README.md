@@ -30,7 +30,7 @@
 ## Techniques:
 - Training (batch_size: `64`):
   - Model 1:
-    -  A self-trained Convolutional Neural Network with 3 convolutional layer and 2 linear layer:
+    -  A self-trained Convolutional Neural Network with `3` convolutional layer and `2` linear layer:
       -  Activation function = `ReLU`
       -  Loss function = `Cross entropy loss`
       -  Optimizer = `Stochastic gradient descent`
@@ -38,7 +38,7 @@
       -  Then two linear layers are followed to output a `1 * 9` vector where each entry is the probablity of the mushroom belongs to the corresponding genus.
       -  Output placeholder (graph/acc)
    - Model 2:
-     -  A pre-trained model (Resent18) with two additional layers:
+     -  A pre-trained model (Resent18) with `2` additional layers:
       -  Fixed the pre-trained model's paramters
       -  Activation function of the additional layers = `ReLU`
       -  Loss function = `Cross entropy loss`
