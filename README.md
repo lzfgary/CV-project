@@ -26,8 +26,17 @@
           - channel R: `(0.485, 0.229)`
           - channel G: `(0.456, 0.224)`
           - channel B: `(0.406, 0.225)`
+          
 ## Techniques:
-
+- Training (batch_size: `64`):
+  - Model 1:
+    -  A self-trained Convolutional Neural Network with 3 convolutional layer and 2 linear layer:
+      -  Activation function = ReLU
+      -  Loss function = Cross entropy loss
+      -  Optimizer = Stochastic gradient descent
+      -  For each convolutional layer, the step is `Convolve -> BatchNorm -> ReLU -> MaxPool`
+      -  Then two linear layers are followed to output a `1 * 9` vector.
+  
 ## Area of improvements:
 
 ## Link to the Colab Notebook:
