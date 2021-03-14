@@ -1,5 +1,5 @@
 # Mushroom Genus Classification
-- Contributor: Zhifu Liu, Kelvin Fang
+- Contributor: Zhifu(Gary) Liu, Kelvin Fang
 <p align="center">
   <img src="./img/mushroom.jpg" width="800" height="500"/>
 </p>
