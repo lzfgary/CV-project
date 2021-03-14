@@ -1,4 +1,5 @@
 # Mushroom Genus Classification
+- Contributor: Zhifu Liu, Kelvin Fang
 <p align="center">
   <img src="./img/mushroom.jpg" width="800" height="500"/>
 </p>
@@ -9,7 +10,7 @@
   
 ## Problem setup & Data used:
 - The data that are used to train the models is collected by [CatoDogo from Kaggle][1].
-  - The dataset consists of `6714` images from `9` commonly found Mushroom genera in Northen Europe:
+  - The dataset consists of `6714` images from `9` commonly found Mushroom genera in Northern Europe:
     - `Agaricus`, `Amanita`, `Boletus`, `Cortinarius`, `Entoloma`, `Hygrocybe`, `Lactarius`, `Russula`, `Suillus`
   - The dataset is randomly splitted into `train_dataset` and `test_dataset`.
     - Model 1:
