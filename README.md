@@ -63,7 +63,7 @@
     - <img src="./img/result_m1.png"  width="400" height="300"/>
   - Model 2:
     - <img src="./img/result_m2.png"  width="400" height="300"/>
-## Area of improvements:
+## Area of improvements & Others:
   - A potential problem is that the test and training set may not have a good distribution over each genus. Since we randomly selected a portion of images from the population, we may get a test set or training set that has more images from a particular genus. This will make our model biased. A better approach could be randomly select 10% of images from each genus to form the test dataset while the rest being used by training dataset. This could ensure that each genus has enough data to train on.
   - Model 2 significantly outperforms Model 1 which indicates that there is still plenty of space for improvement. And we probably should change the depth and width of our model 1 while also prevent overfitting.
   
