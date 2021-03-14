@@ -57,5 +57,9 @@
   - Model 2 significantly outperforms Model 1 which indicates that there is still plenty of space for improvement.
   
 ## Link to the Colab Notebook:
+- [Model 1][]
+- [Model 2][3]
 
 [1]: https://www.kaggle.com/maysee/mushrooms-classification-common-genuss-images
+[2]:
+[3]: https://colab.research.google.com/drive/1eaKfNG5ZAOZq_f1DofTRRC8s1yXa1MGr?usp=sharing
