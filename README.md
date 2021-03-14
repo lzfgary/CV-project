@@ -42,7 +42,7 @@
       -  Optimizer = `Stochastic gradient descent`
       -  For each convolutional layer, the step is `Convolve -> BatchNorm -> ReLU -> MaxPool`
       -  Then two linear layers are followed to output a `1 * 9` vector where each entry is the probablity of the mushroom belongs to the corresponding genus.
-      -  Output placeholder (graph/acc)
+
    - Model 2:
      -  A pre-trained model (Resent18) with `2` additional layers:
       -  Fixed the pre-trained model's paramters
@@ -50,7 +50,7 @@
       -  Loss function = `Cross entropy loss`
       -  Optimizer = `torch.Adam`
       -  Then two linear layers are followed to output a `1 * 9` vector where each entry is the probablity of the mushroom belongs to the corresponding genus.
-      -  Output placeholder (graph/acc)
+
 - For both models: we randomly assign hyper-paramters within a resonable range and train the model with these hyper-parameters.
 - We pick the best performed set of hyper-parameters.
 - Using these hyper-paramters, training accuracy, and output graph, we fine tune parameters: `weight decay`, `learning rate`, `number of epoch`.
