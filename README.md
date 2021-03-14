@@ -6,7 +6,7 @@
   
 ## Problem setup & Data used:
 1. The data that are used to train the models is collected by [CatoDogo from Kaggle][1].
-2.  
+- sdsd
 
 ## Techniques:
 
