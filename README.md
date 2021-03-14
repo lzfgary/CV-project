@@ -1,4 +1,5 @@
 # Mushroom Genus Classification
+## Zhifu Liu, Mengnuo Fang
 
 ![Mushroom](./img/mushroom.jpg)
 
