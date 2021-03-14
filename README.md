@@ -2,11 +2,12 @@
 
 ## Overview:
   
-  The purpose of this project is to classify mushrooms into their corresponding genus based on their images. With the dataset consists of images from nine commonly found genus of mushrooms, we trained two models that could distinguish mushrooms.
+  The purpose of this project is to classify mushrooms into their corresponding genus based on their images. With the dataset consists of images from nine commonly found genera of mushrooms, we trained two models that could distinguish mushrooms.
   
 ## Problem setup & Data used:
-1. The data that are used to train the models is collected by [CatoDogo from Kaggle][1].
-  1.1 sdsd
+- The data that are used to train the models is collected by [CatoDogo from Kaggle][1].
+  - The dataset consists of `6714` images from `9` commonly found Mushroom genera in Northen Europe:
+    - `Agaricus`, `Amanita`, `Boletus`, `Cortinarius`, `Entoloma`, `Hygrocybe`, `Lactarius`, `Russula`, `Suillus` 
 
 ## Techniques:
 
