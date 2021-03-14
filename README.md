@@ -44,7 +44,7 @@
       -  Then two linear layers are followed to output a `1 * 9` vector where each entry is the probablity of the mushroom belongs to the corresponding genus.
 
    - Model 2:
-     -  A pre-trained model (Resent18) with `2` additional layers:
+     -  A pre-trained model (Resnet18) with `2` additional layers:
       -  Fixed the pre-trained model's paramters
       -  Activation function of the additional layers = `ReLU`
       -  Loss function = `Cross entropy loss`
