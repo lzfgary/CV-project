@@ -12,14 +12,20 @@
     - Model 1:
       - `train_dataset`: 4000 images
       - `test_dataset`: 2714 images
-      - All images are normalized with a mean of `0.5` and standard deviation of `0.5`
-      - All images are resized to `256 * 256` pixels
+      - All images are:
+        - normalized (μ, σ):
+          - channel R, G, B: (0.5, 0.5)
+        - resized to `256 * 256` pixels
     - Model 2:
       - `train_dataset`: 6042 images
       - `test_dataset`: 672 images
-      - All images are normalized with a mean of `0.5` and standard deviation of `0.5`
-      - All images are resized to `256 * 256` pixels
-
+      - All images are:
+        - resized to `256 * 256` pixels
+        - center cropped to `224 * 224` pixels
+        - normalized (μ, σ):
+          - channel R: (0.485, 0.229)
+          - channel G: (0.456, 0.224)
+          - channel B: (0.406, 0.225)
 ## Techniques:
 
 ## Area of improvements:
