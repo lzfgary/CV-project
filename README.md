@@ -63,5 +63,5 @@
 - [Model 2][3]
 
 [1]: https://www.kaggle.com/maysee/mushrooms-classification-common-genuss-images
-[2]: https://colab.research.google.com/drive/1eaKfNG5ZAOZq_f1DofTRRC8s1yXa1MGr?usp=sharing
+[2]: https://colab.research.google.com/drive/1H9yu2pfpyPB6GIHHlpmjbsEUteaT1RZp?usp=sharing
 [3]: https://colab.research.google.com/drive/1eaKfNG5ZAOZq_f1DofTRRC8s1yXa1MGr?usp=sharing
