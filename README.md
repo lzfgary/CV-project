@@ -1,7 +1,9 @@
 # Mushroom Genus Classification
-<p align="center>
+
+<p align="center">
   <img src="./img/mushroom.jpg" width="800" height="600"/>
- </p>
+</p>
+
 ## Overview:
   
   The purpose of this project is to classify mushrooms into their corresponding genus based on their images. With the dataset consists of images from nine commonly found genera of mushrooms, we trained two models that could distinguish mushrooms.
