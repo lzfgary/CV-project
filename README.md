@@ -56,10 +56,11 @@
 - Using these hyper-paramters, training accuracy, and output graph, we fine tune parameters: `weight decay`, `learning rate`, `number of epoch`.
 
 ## Results:
-- Model 1:
-  - <img src="./img/result_m1.png"  width="400" height="300"/>
-- Model 2:
-  - <img src="./img/result_m2.png"  width="400" height="300"/>
+- Accuracy and graphs of sum loss:
+  - Model 1:
+    - <img src="./img/result_m1.png"  width="400" height="300"/>
+  - Model 2:
+    - <img src="./img/result_m2.png"  width="400" height="300"/>
 ## Area of improvements:
   - As how to split the data into training and test dataset, a better approach could be randomly select 10% of images from each genus to form the test dataset while the rest being used by training dataset. This could ensure that each genus has enough data to train on.
   - Model 2 significantly outperforms Model 1 which indicates that there is still plenty of space for improvement.
